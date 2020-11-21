@@ -7,5 +7,3 @@ class Movie:
         self.name = movie_name
         self.director = movie_director
 my_movie =  Movie('The Matrix', 'Wachowski')
-
-print
