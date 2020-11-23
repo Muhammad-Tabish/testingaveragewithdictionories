@@ -24,5 +24,5 @@ print(student_one.grades)
 
 def average(Student):
  return sum(Student.grades) / len(Student.grades)
-
+student_one.append(5)
 print(average(student_one))

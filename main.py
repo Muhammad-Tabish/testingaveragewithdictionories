@@ -18,9 +18,11 @@ student_one = Student('tabish',[55,66,77,888])
 student_two = Student('aziz' ,[44,55,66,77])    
 
 print(student_two.name)
+student_one.grades.append(5)
 print(student_two.average())
 
 print(student_one.grades)
+student_one.grades.append(5)
 
 def average(Student):
  return sum(Student.grades) / len(Student.grades)
